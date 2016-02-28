@@ -339,6 +339,12 @@ footer a:hover {
 * html .clearfix {height: 1%;}
 .clearfix {display: block;}
 
+/*Fix gist embeds*/
+.gist .blob-wrapper.data {
+   max-height:200px;
+   overflow:auto;
+}
+
 /* #Media Queries
 ================================================== */
 
